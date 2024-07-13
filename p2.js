@@ -1,10 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Arithmetic</title>
-    <script>
+
         function addition(){
             var x=document.getElementById('num1').value;
             var y=document.getElementById('num2').value;
@@ -33,16 +27,11 @@
             var div=(x/y);
             alert(div);
         }
-    </script>
-</head>
-<body>
-    <h1>calculator</h1>
-    <h3>Num1:<input type="number" id="num1"></h3>
-    <h3>Num2:<input type="number" id="num2"></h3>
+   //<h1>calculator</h1>
+   //<h3>Num1:<input type="number" id="num1"></h3>
+   //<h3>Num2:<input type="number" id="num2"></h3>
 
-    <button name="add" onclick="addition()">+</button>
-    <button name="multiply" onclick="multiplication()">*</button>
-    <button name="subtract" onclick="substraction()">-</button>
-    <button name="divide" onclick="Divide()">/</button>
-</body>
-</html>
+  //<button name="add" onclick="addition()">+</button>
+  //<button name="multiply" onclick="multiplication()">*</button>
+  //<button name="subtract" onclick="substraction()">-</button>
+  //<button name="divide" onclick="Divide()">/</button>
